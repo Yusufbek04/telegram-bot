@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/anor
+    username: postgres
+    password: yusufbek200
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+#    properties:
+#      hibernate:
+#        enable_lazy_load_no_trans: true
+
+telegram:
+  webhook-path: "https://76e9-178-218-201-90.in.ngrok.io/api/order/v1/telegram"
+  bot-name: "@maxway_deliverybot"
+  bot-token: "5511026470:AAHT-D1EXn447o_DdGh5F0PfrAI-iV9DzSQ"
